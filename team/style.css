@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+    /* background: rgb(28,204,99);
+    background: linear-gradient(189deg, rgba(28,204,99,1) 0%, rgba(28,172,105,1) 19%, rgba(30,64,126,0.9977124638918067) 79%);  */
+    /* background-image: linear-gradient(to right top, #17bde0, #00cdde, #00dac6, #00e59a, #12eb5d); */
+    /* background-image: linear-gradient(to right, #1be573, #00e99a, #00ebbc, #00ebd7, #12ebeb); */
+    background-image: linear-gradient(to right bottom, #95d153, #43d488, #00d0bb, #00c8e0, #00bcf1, #3bbdf4, #55bef6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 7px;
+}
+
+.container .title {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(50% - 20px);
+}
+
+form .user-details .input-box .details {
+    float: left;
+}
+/* 
+form .left {
+    float: left;
+    width: 49%;
+}
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+} */
