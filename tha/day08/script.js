@@ -16,6 +16,7 @@ const whitePixels = [
     return pixel;
   }
   
+  
   var container = document.querySelector(".container");
   for (let i = 0; i < 400; i++) {
     container.appendChild(makePixel(i));

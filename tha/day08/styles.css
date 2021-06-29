@@ -16,6 +16,7 @@ body {
     grid-template-columns: repeat(20, 1fr);
   }
   
+  
   .container div {
     width: 20px;
     height: 20px;
