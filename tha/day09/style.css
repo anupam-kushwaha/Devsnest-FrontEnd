@@ -1,0 +1,89 @@
+body {
+  margin-top: 100px;
+  display: flex;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(156, 119, 212, 1) 51%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  align-content: center;
+  justify-content: center;
+  background-size: cover;
+
+  user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 15px;
+  width: 70%;
+  background: rgba(204, 207, 18, 0.5);
+}
+
+#box {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 15px;
+  outline: 1px solid white;
+}
+
+td {
+  outline: 1px solid rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+#stage {
+  margin-top: 81px;
+  max-width: 400px;
+  perspective: 1000px;
+  margin-left: 0%;
+}
+.counting {
+  outline: 1px solid white;
+  display: flex;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  justify-content: space-around;
+}
+
+#showshow_availble {
+
+}
+
+#show_occupied {
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.seatfilled {
+  color: white;
+}
+
+i {
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .counting {
+    flex-direction: column;
+    text-align: center;
+  }
+}
