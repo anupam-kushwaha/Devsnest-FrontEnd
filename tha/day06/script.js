@@ -16,6 +16,7 @@ var is_array = function (input) {
 console.log(is_array('w3resource'));
 console.log(is_array([1, 2, 4, 0]));
 
+
 /**
  *  Question.2
     Write a JavaScript function to clone an array
