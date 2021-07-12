@@ -51,7 +51,7 @@ for (let card of cards) {
                     matches++;
                     card.style.visibility = "hidden";
                     clicked.style.visibility = "hidden";
-                    console.log("matches:"+ matches);
+                    console.log("matches:" + matches);
                 }
                 clicked = undefined;
                 gameActive = true;
@@ -62,21 +62,21 @@ for (let card of cards) {
         }
     });
 }
-
 setInterval(() => {
-    if (mooves == 0) {
+    if (moves == 0) {
         document.querySelector(".popup").style.display = "flex";
         document.querySelector(".container").style.display = "none";
         let h2 = document.createElement("h2");
-        document.querySelector(".popup > div > h2").innerHTML = "You loose!!";
+        document.querySelector(".popup > h2").innerHTML = "You loose!!";
     }
     if (matches == 8) {
         document.querySelector(".popup").style.display = "flex";
         document.querySelector(".container").style.display = "none";
-        document.querySelector(".popup > div > h2").innerHTML = "You loose!!";
+        let h2 = document.createElement("h2");
+        document.querySelector(".popup > h2").innerHTML = "You won!!";
     }
 }, 100);
 
-document.getElementById("reload").addEventListener("click", (e)=>{
+document.getElementById("reload").addEventListener("click", (e) => {
     window.location.reload();
-})
+});
